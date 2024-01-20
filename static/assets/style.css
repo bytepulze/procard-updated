@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    background-attachment: fixed;
+    height: 100%
+}
+
+body {
+    font-family: "Poppins",sans-serif;
+    color: white;
+    background-size: cover
+}
+
+@font-face {
+    font-family: king;
+    src: url(../fonts/Kingslayer.otf)
+}
+
+@font-face {
+    font-family: strange;
+    src: url(../fonts/Strange\ Piece.ttf)
+}
+
+@font-face {
+    font-family: hacka;
+    src: url(../fonts/Modeseven-L3n5.ttf)
+}
+
+@font-face {
+    font-family: old;
+    src: url(../fonts/BALLT___.TTF)
+}
+
+@font-face {
+    font-family: digital;
+    src: url(../fonts/MINISKAP.TTF)
+}
+
+@font-face {
+    font-family: buble;
+    src: url(../fonts/BLOBBYCHUG.ttf)
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 80px
+}
+
+i {
+    font-size: 20px;
+    margin-right: 5px
+}
+
+.pfp-image {
+    animation: down 2s;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 10px solid #1f202038;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    max-width: 150px;
+    height: 150px
+}
+
+.username {
+    animation: up 2s;
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: bold
+}
+
+.bio-text {
+    font-size: 16px;
+    margin-top: 8px;
+    animation: up 2s;
+    font-weight: 500;
+    color: #f1f1f1bd
+}
+
+.social-icons {
+    margin-top: 0px;
+    color: white;
+    font-size: 28px;
+    transition: 0.2s ease-in-out;
+    padding: 0px 2px
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -63px;
+    transform: scale(0);
+    transition: ease-in-out 150ms
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    transform: scale(1)
+}
+
+.social-icons:hover {
+    transform: scale(1.1)
+}
+
+.social-icons:hover {
+    transform: scale(1.1)
+}
+
+.spotifys {
+    animation: up 2s;
+    margin-bottom: 32px
+}
+
+.socials {
+    margin: 0 auto;
+    animation: up 2s;
+    margin-bottom: 30px;
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.badge {
+    height: 20px
+}
+
+.badgeunder {
+    animation: up 2s;
+    height: 20px
+}
+
+.disc-name {
+    font-weight: 600;
+    font-size: 16px
+}
+
+.flex-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 1px;
+    border: 1px solid gray;
+    width: 50%;
+    margin: auto;
+    border-radius: 20rem;
+    margin-top: 20px;
+    cursor: pointer
+}
+
+.disc {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5865F2;
+    text-shadow: rgba(88,101,242,1) 0px 0px 9px
+}
+
+.img-class {
+    animation: up 2s;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto
+}
+
+.btn-link {
+    animation: up 2s;
+    padding: 16px 44px;
+    width: 95%;
+    text-align: center;
+    background-color: #0d0d0e;
+    border: 0px solid #1c1c1c;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.57);
+    cursor: pointer;
+    color: #a7a7a7;
+    transition: transform 0.25s ease,color 0.25s ease,background-color 0.25s ease,border-color 0.25s ease;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-family: "Poppins"
+}
+
+.btn-link:hover {
+    -webkit-box-shadow: 0px 0px 20px 1px rgb(47 47 47 / 90%);
+    -moz-box-shadow: 0px 0px 20px 1px rgb(47 47 47 / 90%);
+    box-shadow: 0px 0px 20px 1px rgb(47 47 47 / 90%);
+    transform: scale(0.95)
+}
+
+.btn-link:active {
+    transform: scale(0.92)
+}
+
+.sparkle {
+    background-image: url(https://cdn.discordapp.com/attachments/975129514499772516/1043554950350897242/sparkle.gif)
+}
+
+.mark {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold
+}
+
+.mark:hover {
+    text-decoration: underline
+}
+
+.background {
+    padding: 80px 0px
+}
+
+.blur {
+    background: rgb(0 0 0 / 10%);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    -moz-backdrop-filter: blur(8px);
+    -ms-backdrop-filter: blur(8px);
+    border: 2px solid rgb(0 0 0 / 20%);
+    margin: auto;
+    padding: 30px 0px;
+    border-radius: 10px;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    -webkit-box-shadow: 0px 0px 50px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 50px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 50px -5px rgba(0,0,0,0.75)
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.ytvid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.35rem!important;
+    animation: up 2s
+}
+
+.ytvid-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    border-radius: 0.4rem!important;
+    margin: 0px 7px
+}
+
+.rgb {
+    animation: rainbow-text 1s infinite
+}
+
+@keyframes rainbow-text {
+    0% {
+        color: #e87d7d
+    }
+
+    2% {
+        color: #e88a7d
+    }
+
+    4% {
+        color: #e8977d
+    }
+
+    6% {
+        color: #e8a47d
+    }
+
+    8% {
+        color: #e8b07d
+    }
+
+    10% {
+        color: #e8bd7d
+    }
+
+    12% {
+        color: #e8ca7d
+    }
+
+    14% {
+        color: #e8d77d
+    }
+
+    16% {
+        color: #e8e47d
+    }
+
+    18% {
+        color: #dfe87d
+    }
+
+    20% {
+        color: #d3e87d
+    }
+
+    22% {
+        color: #c6e87d
+    }
+
+    24% {
+        color: #b9e87d
+    }
+
+    26% {
+        color: #ace87d
+    }
+
+    28% {
+        color: #9fe87d
+    }
+
+    30% {
+        color: #92e87d
+    }
+
+    32% {
+        color: #86e87d
+    }
+
+    34% {
+        color: #7de881
+    }
+
+    36% {
+        color: #7de88e
+    }
+
+    38% {
+        color: #7de89b
+    }
+
+    40% {
+        color: #7de8a8
+    }
+
+    42% {
+        color: #7de8b5
+    }
+
+    44% {
+        color: #7de8c1
+    }
+
+    46% {
+        color: #7de8ce
+    }
+
+    48% {
+        color: #7de8db
+    }
+
+    50% {
+        color: #7de8e8
+    }
+
+    52% {
+        color: #7ddbe8
+    }
+
+    54% {
+        color: #7dcee8
+    }
+
+    56% {
+        color: #7dc1e8
+    }
+
+    58% {
+        color: #7db5e8
+    }
+
+    60% {
+        color: #7da8e8
+    }
+
+    62% {
+        color: #7d9be8
+    }
+
+    64% {
+        color: #7d8ee8
+    }
+
+    66% {
+        color: #7d81e8
+    }
+
+    68% {
+        color: #867de8
+    }
+
+    70% {
+        color: #927de8
+    }
+
+    72% {
+        color: #9f7de8
+    }
+
+    74% {
+        color: #ac7de8
+    }
+
+    76% {
+        color: #b97de8
+    }
+
+    78% {
+        color: #c67de8
+    }
+
+    80% {
+        color: #d37de8
+    }
+
+    82% {
+        color: #df7de8
+    }
+
+    84% {
+        color: #e87de4
+    }
+
+    86% {
+        color: #e87dd7
+    }
+
+    88% {
+        color: #e87dca
+    }
+
+    90% {
+        color: #e87dbd
+    }
+
+    92% {
+        color: #e87db0
+    }
+
+    94% {
+        color: #e87da4
+    }
+
+    96% {
+        color: #e87d97
+    }
+
+    98% {
+        color: #e87d8a
+    }
+
+    100% {
+        color: #e87d7d
+    }
+}
+
+@keyframes down {
+    from {
+        transform: translate3d(0,-150px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@keyframes up {
+    from {
+        transform: translate3d(0,150px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0.8
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0.8
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blur {
+        max-width:100%;
+        border-radius: 0
+    }
+
+    .center {
+        margin-top: 0
+    }
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none
+}
+
+.snowflake {
+    position: fixed;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    width: 15px;
+    animation-name: snowflakes-shake
+}
+
+@media only screen and (max-width: 768px) {
+    .snowflake {
+        width:10px
+    }
+}
+
+.blurpage {
+    background: rgb(0 0 0 / 20%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    -ms-backdrop-filter: blur(10px);
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out
+}
+
+.blurpagerplc {
+    background: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    -moz-backdrop-filter: none;
+    -ms-backdrop-filter: none
+}
+
+.blurpagerplc2 {
+    width: 10%;
+    height: 10%
+}
+
+.musicbtn {
+    font-size: 16px;
+    color: rgb(189,189,189);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all 2s ease-out;
+    transition-timing-function: cubic-bezier(0.1,1,0,1);
+    transform-origin: right top;
+    opacity: 0.8
+}
+
+.musicbtn:hover {
+    opacity: 1
+}
+
+audio {
+    display: none
+}
+
+.replace {
+    transform: translate(0,0);
+    opacity: 0.2;
+    top: 0;
+    left: 0
+}
